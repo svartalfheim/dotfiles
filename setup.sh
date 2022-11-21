@@ -1,6 +1,8 @@
 #!/bin/sh
 
-ln -sf ~/dotfiles/.vimrc ~/.vimrc
-ln -sf ~/dotfiles/.vim ~/.vim
-ln -sf ~/dotfiles/.config ~/.config
+DOT_FILES=(.vim .vimrc .config .gitconfig)
 
+for file in ${DOT_FILES[@]}
+do
+    ln -s $HOME/dotfiles/$file $HOME/$file
+done
