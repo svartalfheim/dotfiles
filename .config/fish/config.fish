@@ -1,3 +1,4 @@
-# AndroidSDK
-set PATH ~/Library/Android/sdk/platform-tools $PATH
-set PATH ~/Library/Android/sdk/tools $PATH
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+	eval "$(/opt/homebrew/bin/brew shellenv)"
+end
