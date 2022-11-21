@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOT_FILES=(.vim .vimrc .config .gitconfig)
+DOT_FILES=(.vim .vimrc .config/fish .gitconfig)
 
 for file in ${DOT_FILES[@]}
 do
