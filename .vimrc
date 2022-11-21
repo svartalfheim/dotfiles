@@ -1,3 +1,7 @@
+packadd! dracula
+syntax enable
+colorscheme dracula
+
 " setting
 set fenc=utf-8
 
