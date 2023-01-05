@@ -1,3 +1,5 @@
 [user]
 	email = svartalfheim.jp@gmail.com
 	name = YusukeTashiro
+[push]
+	default = current
